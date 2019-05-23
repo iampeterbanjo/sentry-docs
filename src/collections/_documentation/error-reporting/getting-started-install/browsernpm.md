@@ -1,12 +1,10 @@
-If you are using `yarn` you can add our package as a dependency easily:
+If you are using `yarn` or `npm` you can add our package as a dependency easily:
 
 ```bash
+# Using yarn
 $ yarn add @sentry/browser@{% sdk_version sentry.javascript.browser %}
-```
 
-Or alternatively you can npm install it:
-
-```bash
+# Using npm
 $ npm install @sentry/browser@{% sdk_version sentry.javascript.browser %}
 ```
 
